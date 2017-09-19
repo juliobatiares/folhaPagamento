@@ -2,6 +2,7 @@
 Calculando uma Folha de Pagamento
 
 /**********************************************************************************************************/
+
 Uma empresa paga seus funcionários semanalmente. Os funcionários são de quatro tipos: 
 
 Funcionários assalariados: recebem salários fixos semanais independentemente do 
@@ -19,4 +20,5 @@ Para o período salarial atual, a empresa decidiu recompensar os funcionários
 assalariados-comissionados adicionando 10% aos seus salários-base. 
 A empresa quer que você escreva um aplicativo que realiza os cálculos da folha de pagamento.
 /**********************************************************************************************************/
+
 @juliobatiares
