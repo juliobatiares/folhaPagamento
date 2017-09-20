@@ -7,9 +7,9 @@ public abstract class Funcionario {
 	String dataAdm;
 	
 	public Funcionario(String nome, String setor, String dataAdm) {
-		this.nome = nome;
-		this.setor = setor;
-		this.dataAdm = dataAdm;
+		this.setNome(nome);
+		this.setSetor(setor);
+		this.setDataAdm(dataAdm);
 	}
 
 	public String getNome() {

@@ -1,13 +1,13 @@
 package folhaPagamento;
 
 public class Assalariado extends Funcionario {
-	int salFixo;
+	double salFixo;
 	
 	public Assalariado (String nome, String setor, String dataAdm, int salFixo) {
 		super(nome, setor, dataAdm);
-		this.salFixo = salFixo;		
+		this.setSalFixo(salFixo);		
 	}
-
+	
 	@Override
 	public String getNome() {
 		return nome;
@@ -38,7 +38,7 @@ public class Assalariado extends Funcionario {
 		this.dataAdm = dataAdm;
 	}
 	
-	public int getSalFixo() {
+	public double getSalFixo() {
 		return salFixo;
 	}
 
