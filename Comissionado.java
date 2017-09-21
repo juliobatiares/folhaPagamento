@@ -10,7 +10,7 @@ public class Comissionado extends Funcionario {
 		this.setPercentual(percentual);
 	}
 	
-	public double getTotComissionado (double totVendas, double percentual) {
+	public double getCalculoComissionado (double totVendas, double percentual) {
 		double resultado;
 		
 		resultado = totVendas * percentual;
